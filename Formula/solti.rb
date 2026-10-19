@@ -1,16 +1,16 @@
 class Solti < Formula
   desc "Solti Platform CLI — batch processing without infrastructure"
   homepage "https://solti.run"
-  version "0.1.0"
+  version "0.1.1"
 
   on_arm do
-    url "https://github.com/trysolti/homebrew-tap/releases/download/v0.1.0/solti-0.1.0-darwin-arm64.tar.gz"
-    sha256 "86c6c6d0f19a389a26051c4b7d35037b0d5f139ad493b3febf4180fb82fc1d67"
+    url "https://github.com/trysolti/homebrew-tap/releases/download/v0.1.1/solti-0.1.1-darwin-arm64.tar.gz"
+    sha256 "9af73b958d41703ca5ff722098ef0398fe9118e071f89d27a1d386863d296190"
   end
 
   on_intel do
-    url "https://github.com/trysolti/homebrew-tap/releases/download/v0.1.0/solti-0.1.0-darwin-x64.tar.gz"
-    sha256 "b4cc69f13e0a6db3ef068da9bff9522a279d659d1288481dedb855c1146f38f1"
+    url "https://github.com/trysolti/homebrew-tap/releases/download/v0.1.1/solti-0.1.1-darwin-x64.tar.gz"
+    sha256 "98e83335ac0c3762952e80c2e57b61f2211270f5375f47f7ecb6be606578fa5c"
   end
 
   def install
