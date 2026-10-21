@@ -5,12 +5,12 @@ class Solti < Formula
 
   on_arm do
     url "https://github.com/trysolti/homebrew-tap/releases/download/v0.1.1/solti-0.1.1-darwin-arm64.tar.gz"
-    sha256 "a36244ec86a63fe51805683aefc77b21efc5fa8661bcccc3bfedc06cb634f53e"
+    sha256 "b203d3da006c00d7f6ff45e026b6282bb9fe1fde0127294bec779ef558da4f3c"
   end
 
   on_intel do
     url "https://github.com/trysolti/homebrew-tap/releases/download/v0.1.1/solti-0.1.1-darwin-x64.tar.gz"
-    sha256 "804da63c0adbeafa811855157ccf45da9783b673a303d3e6b7d59a6cf1eba286"
+    sha256 "e51191982180468c682161ad880ff38d7396d981808b219d73077df596d2246e"
   end
 
   def install
