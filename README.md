@@ -25,8 +25,7 @@ solti --version
 
 ## Notes
 
-- The CLI is not on public npm, so this formula ships standalone compiled
-  binaries (built with `bun build --compile`) from this repo's GitHub
+- The formula ships standalone compiled binaries from this repo's GitHub
   releases.
 - Supported platforms: macOS (Apple Silicon `arm64` and Intel `x64`).
 - Formula version tracks the matching GitHub release (`v0.1.0` here).
